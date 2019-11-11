@@ -1,6 +1,6 @@
 body{
   font-size: 14px;
-  color: #333;
+  color:  #002366 ;
   background-color: #fff;
   letter-spacing: 1px;
 }
@@ -52,7 +52,7 @@ body{
 
 
 .titeMessage .heading p{
-  color: #ffff;
+  color: #daa520;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight:100px;
   letter-spacing:7px;
@@ -80,5 +80,33 @@ body{
 
 .skillsSection{
   background-color:#800020;
-  color: #ffff;
+  color: #d4af37;
+}
+.skill{
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+.chart{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+.chart canvas{
+  position:absolute;
+  left:0;
+  top:0;
+}
+.chart .percent {
+  color:  #d4af37;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.chart .percent::after{
+  content:'%';
 }
