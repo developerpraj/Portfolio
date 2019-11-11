@@ -85,7 +85,7 @@ body{
 .skill{
   text-align: center;
   margin-left: 10px;
-  
+
 }
 
 .chart{
@@ -109,4 +109,48 @@ body{
 
 .chart .percent::after{
   content:'%';
+}
+
+.squareItem{
+  margin-top: 30px;
+  position: relative;
+}
+
+.squareInnerContainer{
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #d4af37;
+  border-top: none;
+}
+
+.squareInnerContainer::before,
+.squareInnerContainer::after{
+  content: '';
+  position: absolute;
+  top:0px;
+  width: 30%;
+  border-bottom: 2px solid #d4af37;
+}
+
+.squareInnerContainer::before {
+  right: 0px;
+}
+
+.squareInnerContainer::after {
+  left: 0px;
+}
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 350;
+  color:  #002366;
+}
+
+.squareContent h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin:0px;
+  color: #002366;
 }
