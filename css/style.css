@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 3;
+  z-index: 5;
   background-color: rgba(0 , 0, 0, 0.4)
 
 }
@@ -11,19 +11,54 @@
 .slides-navigation .next {
   width: 47px;
   height: 47px;
+  z-index: 6;
   background-size: cover;
   background-repeat: no-repeat;
 
 }
 
-.slides-navigation a.next {
+.slides-navigation {
+  z-index: 6;
+}
+
+.slides-navigation .next {
 
   background-image: url(../img/icons/next.png);
 
 }
 
-.slides-navigation a.prev {
+.slides-navigation .prev {
 
   background-image: url(../img/icons/back.png);
 
+}
+
+.titeMessage{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 6;
+  text-align: center;
+  margin-top: -125px;
+}
+
+
+.titeMessage .heading p{
+  color: #ffff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight:100px;
+  letter-spacing:7px;
+
+}
+
+.titeMessage .heading .main {
+  font-size: 50px;
+  font-weight:lighter;
+  font-family: cursive;
+}
+
+.titeMessage .heading .sub {
+  font-size: 23px;
+  font-style: italic;
 }
