@@ -62,3 +62,11 @@
   font-size: 23px;
   font-style: italic;
 }
+
+.section{
+  padding: 100px 0;
+}
+
+.aboutImage{
+  max-width: 100%;
+}
