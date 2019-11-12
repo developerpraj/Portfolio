@@ -78,7 +78,8 @@ body{
   max-width: 100%;
 }
 
-.skillsSection{
+.skillsSection,
+.contactSection{
   background-color:#800020;
   color: #d4af37;
 }
@@ -164,4 +165,8 @@ body{
   font-size: 50px;
   margin-left: -20%;
   color: #d4af37;
+}
+
+.statsSection .container{
+  margin-bottom: 75px;
 }
