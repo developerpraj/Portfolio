@@ -154,3 +154,14 @@ body{
   margin:0px;
   color: #002366;
 }
+
+.squareIcon{
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 50px;
+  margin-left: -20%;
+  color: #d4af37;
+}
