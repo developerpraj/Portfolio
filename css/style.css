@@ -186,3 +186,13 @@ body{
   color:#d4af37;
   background-color:#fff;
 }
+.filter a{
+  color:#ecf0f1;
+  border: 1px solid #ecf0f1;
+  padding:15px 18px;
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+}
