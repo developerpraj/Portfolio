@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>iampraJ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!--  CSS Styling sheets(superslides,owlcarsoul,bootstrap,style.CSS) link and jquerey CDN-->
     <link rel="stylesheet" href="css/superslides.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -14,6 +15,11 @@
 
 
   <body>
+
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
     <!--  The slides body starts here-->
       <div id="slides">
           <div class="overlay">
@@ -40,23 +46,56 @@
             </nav>
 
       </div>
-        <!--  The about body starts here-->
-      <div id="about" class="section">
-        <div class="container">
 
-            <div class="row">
-              <div class="col-md-5">
-                <img class="aboutImage"  src="img/myimage.jpg" alt="">
-              </div>
+      <nav  id="boss" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">PraJ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about"about>About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
 
-              <div class="clol-md-7">
-                <h4>My Name is Prajjwol Timilsinal</h4>
-                <p>I am a software Engineer   and blah blah kajslkasjdlka hkfjalksfj hfjlakjfklasjfhkj jhaas aks</p>
-                <p>i graduated from Mississippi State University</p>
-              </div>
-            </div>
-          </div>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stats">Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Connect</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+
+
+        <!--  The about body starts here-->
+        <div id="about" class="section">
+         <div class="container">
+
+             <div class="row">
+               <div class="col-md-5">
+                 <img class="aboutImage"  src="img/myimage.jpg" alt="">
+               </div>
+
+               <div class="clol-md-7">
+                 <h4>I am I ,You are You. This guy is  Praj, Who are you?</h4>
+                  <p>You found Praj,Oh no, Praj found you. Okay leave it. Who cares who found whom.<br>Praj likes to read,travel,listen to music,code and sleep.</p>
+                  <p>Praj was developed. That's the reason why he chose to become a developer.<br> Quite Starange, isn't it ? That's what i told him too.Praj Studied Software Engineering<br> with Minor in Mathematics from Mississippi State University.Praj developes things that can<br> make a difference.Praj is also an Enterprener and likes to learn new things . </p>
+                  <p>"Praj", this string is repeated many times here. It would have been been better if it was <br> decleared locally in this division. Yep,Yep.. indeed . it's a good idea while Praj <br>wants you to remember his name.</p>
+                  <p>Praj is Awesome, Be like Praj.</p>
+               </div>
+             </div>
+           </div>
+         </div>
+
+
         <!--  The skills body section starts here-->
       <div id="skills" class="skillsSection section">
         <div class="container">
@@ -69,64 +108,66 @@
                 <div class="owl-carousel owl-theme">
                     <div class="skill">
                       <span class="chart" data-percent="90">
-                        <span class="percent">67</span>
+                        <span class="percent">80</span>
                         <canvas height="152" width="152"></canvas>
                       </span>
-                      <h4>JAVA</h4>
-                      <p>Used to make a webapp for my personal project</p>
+                      <h4>C#/C++/C</h4>
+                      <p>Used to make some desktop and webapps uisng .Net Framework</p>
 
                     </div>
 
                     <div class="skill">
                     <span class="chart" data-percent="80">
-                      <span class="percent">67</span>
+                      <span class="percent">80</span>
                       <canvas height="152" width="152"></canvas>
                     </span>
-                    <h4>HTML</h4>
-                    <p>Used to make a webapp for my personal project</p>
+                    <h4>HTML/CSS</h4>
+                    <p>Used to make a webapp for my personal project and also this portfolio</p>
                     </div>
 
                     <div class="skill">
-                  <span class="chart" data-percent="67">
-                    <span class="percent">67</span>
-                    <canvas height="152" width="152"></canvas>
-                  </span>
-                  <h4>C++</h4>
-                  <p>Used to make a webapp for my personal project</p>
-                    </div>
-
-                    <div class="skill">
-                      <span class="chart" data-percent="67">
-                        <span class="percent">67</span>
+                      <span class="chart" data-percent="70">
+                        <span class="percent">70</span>
                         <canvas height="152" width="152"></canvas>
                       </span>
-                      <h4>C</h4>
-                      <p>Used to make a webapp for my personal project</p>
-                    </div>
-
-                    <div class="skill">
-                      <span class="chart" data-percent="67">
-                        <span class="percent">67</span>
-                        <canvas height="152" width="152"></canvas>
-                      </span>
-                      <h4>MySQL</h4>
-                      <p>Used to make a webapp for my personal project</p>
+                      <h4>SQL Server</h4>
+                      <p>Used to design the college database systems and on other projects</p>
                     </div>
 
 
                     <div class="skill">
-                      <span class="chart" data-percent="67">
-                        <span class="percent">67</span>
+                      <span class="chart" data-percent="75">
+                        <span class="percent">80</span>
                         <canvas height="152" width="152"></canvas>
                       </span>
-                      <h4>PYTHON</h4>
-                      <p>Used to make a webapp for my personal project</p>
+                      <h4>PYTHON/R</h4>
+                      <p>Used to for Data Analysis Projects.</p>
                     </div>
 
+
+                  <div class="skill">
+                    <span class="chart" data-percent="80">
+                      <span class="percent">80</span>
+                      <canvas height="152" width="152"></canvas>
+                    </span>
+                    <h4>AWS </h4>
+                    <p>Used for my project to devlop RDS database and deploy o365 single sign on enabled app app on Beanstalk.</p>
+                  </div>
+
+                  <div class="skill">
+                    <span class="chart" data-percent="85">
+                      <span class="percent">85</span>
+                      <canvas height="152" width="152"></canvas>
+                    </span>
+                    <h4>Azure</h4>
+                    <p>Used for my project to devlop RDS database and deploy O365 single sign on enabled webapplicationn on Elastic Beanstalk.</p>
+                  </div>
                 </div>
             </div>
         </div>
       </div>
+
+
 
 
         <!--The stat section starts from here-->
@@ -139,11 +180,11 @@
                   <div class="squareItem">
                     <div class="squareInnerContainer">
                       <div class="squareIcon">
-                          <i class="fa fa-car"></i>
+                          <i class="fa fa-clock-o"></i>
                       </div>
                       <div class="squareContent">
-                        <h2 class="counter">124</h2>
-                        <h3>Clients<h3>
+                        <h2 class="counter">4</h2>
+                        <h3>Years Experience<h3>
                       </div>
                     </div>
                   </div>
@@ -155,11 +196,11 @@
                   <div class="squareItem">
                     <div class="squareInnerContainer">
                       <div class="squareIcon">
-                          <i class="fa fa-car"></i>
+                          <i class="fa fa-calendar"></i>
                       </div>
                       <div class="squareContent">
-                        <h2 class="counter">124</h2>
-                        <h3>Clients<h3>
+                        <h2 class="counter">3</h2>
+                        <h3>Clients</h3>
                       </div>
                     </div>
                   </div>
@@ -171,11 +212,11 @@
                     <div class="squareItem">
                       <div class="squareInnerContainer">
                         <div class="squareIcon">
-                            <i class="fa fa-car"></i>
+                            <i class="fa fa-bolt"></i>
                         </div>
                         <div class="squareContent">
-                          <h2 class="counter">124</h2>
-                          <h3>Clients<h3>
+                          <h2 class="counter">5</h2>
+                          <h3>Apps Developed</h3>
                         </div>
                       </div>
                     </div>
@@ -187,11 +228,11 @@
                     <div class="squareItem">
                       <div class="squareInnerContainer">
                         <div class="squareIcon">
-                            <i class="fa fa-car"></i>
+                            <i class="fa fa-cloud"></i>
                         </div>
                         <div class="squareContent">
-                          <h2 class="counter">124</h2>
-                          <h3>Clients<h3>
+                          <h2 class="counter">9</h2>
+                          <h3>Websites Made</h3>
                         </div>
                       </div>
                     </div>
@@ -199,36 +240,33 @@
 
                 </div>
               </div>
+            </div>
 
 
 
 
        <div id="contact" class="contactSection section">
-        <div class="col-md-12 text-center">
-          <p class="subHeading">Like What you See?</p>
-          <h2>I'd love to hear from you !</h2>
-          <a href="mailTo:prajjwol52@gmail.com" class="contactButton">GET IN TOUCH !!</a>
+        <div id=para class="col-md-12 text-center">
+          <p>Switch(option)</p>
+          <p1>{</p1>
+          <p2>case (connect):</p2>
+          <a href="https://www.linkedin.com/in/prajjwoltimilsina/" class="contactButton">linkedin!</a>
+          <p3 >case(seeMyProject):</p3>
+          <a href="https://github.com/developerpraj" class="contactButton">GitHub</a>
+          <p4>}</p4>
+            <p><br>Only, i can skip break Statements.</p>
         </div>
       </div>
 
-      <div id="Projects" class="section">
-        <div class="container">
 
-            <div class="row">
-              <div class="heading">
-                <h2>PROJECTS</h2>
-                <div class="filter">
-                  <ul id="filters">
-                    <li><a href="#" data-filter="*" class="current">All Projects</a></li>
-                    <li><a href="#" data-filter=".apps">Educational</a></li>
-                    <li><a href="#" data-filter=".me">Enterpreneral</a></li>
-                    <li><a href="#" data-filter=".websites">Personal</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
+    <div class="CopyrightSection">
+      <div class="col-md-12 text-center">
+          <p>&copy; Copyright PRAJJWOL TIMILSINA 2020</p>
+      </div>
+
+    </div>
 
 
 
